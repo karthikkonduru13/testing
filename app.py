@@ -9,6 +9,6 @@ def register_user_app_function():
     if request.method == 'POST':
         data = request.json
 
-        FirstName = data.get('varFirstName')
+        FirstName = data.get('varLastName')
 
         return FirstName
