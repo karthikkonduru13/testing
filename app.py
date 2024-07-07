@@ -10,5 +10,6 @@ def register_user_app_function():
         data = request.json
 
         FirstName = data.get('varFirstName')
+	SecondName = data.get('varSecondName')
 
         return FirstName
